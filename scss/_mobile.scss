@@ -1,0 +1,453 @@
+// Widescreens
+@include mediaXl {
+    .sp {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    .hero_bg {
+        width: 100%;
+        // background-image: url("..\images\main_visual.jpg");
+        background-image: url(/dist/images/main_visual.jpg);
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 700px;
+        background-position: center;
+
+        .inner_hero {
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 0;
+                z-index: 10000;
+                transition: all 0.2s ease-in-out;
+                height: auto;
+                background-color: transparent;
+                line-height: 40px;
+                height: 80px;
+                padding-top: 20px;
+
+                .header_wrapper {
+                    width: 100%;
+                    max-width: 1140px;
+                    margin: auto;
+
+                    h1 {
+                        float: left;
+                        font-size: 1.2em;
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    nav {
+                        float: right;
+                        width: 421px;
+
+                        .icon {
+                            display: none;
+                        }
+
+                        .menu {
+                            width: 650px;
+                        }
+
+                        .menu li {
+                            float: left;
+                            font-size: 16px;
+                        }
+
+                        ul {
+                            list-style: none;
+                            margin: 0 !important;
+                            padding: 0 !important;
+
+                            .nav_item a {
+                                color: white;
+                                font-weight: 500;
+                            }
+
+                            li a {
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+
+                        #free_btn {
+                            padding-left: 40px;
+                            padding-right: 40px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            border-radius: 5px;
+                            margin-left: 20px;
+                            // background-image: url(..\img\white_arrow.png);
+                            background-image: linear-gradient(to right, #dc4588, #ff8940);
+                            transition: all 1s ease-in-out;
+
+                            span {
+                                margin-left: 10px;
+
+                                img {
+                                    width: 8px;
+                                }
+                            }
+                        }
+
+                        #free_btn:hover {
+                            background-image: linear-gradient(to right, #ff8940, #dc4588);
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero_text {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-top: 280px;
+            //   text-align: center;
+            color: white;
+
+            h3 {
+                font-size: 24px;
+                // @include Noto;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                font-size: 2.625em;
+                font-family: "Noto Sans JP", sans-serif;
+                font-weight: bolder;
+                letter-spacing: 2px;
+            }
+
+            .ghost_btn {
+                width: 310px;
+                color: white;
+                // @include Noto;
+                font-weight: 500;
+                border: 1px white solid;
+                border-radius: 100px;
+                display: block;
+                padding: 20px 60px;
+                margin: 40px auto 0;
+            }
+        }
+    }
+
+
+
+    // Tag Message
+    .tag_mess {
+        height: 90px;
+        padding-top: 30px;
+        font-size: 16px;
+        font-family: "Noto Sans JP", sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 80px;
+
+
+        p {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        span {
+            color: $primary-color;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+
+    // News
+
+    .news {
+        padding-bottom: 60px;
+
+        .title {
+            h4 {
+                color: $primary-color;
+                font-size: 12px;
+                font-family: 'Roboto', sans-serif;
+                letter-spacing: 1px;
+            }
+
+            h3 {
+                font-family: "Noto Sans JP", sans-serif;
+                letter-spacing: 1px;
+                font-weight: 400;
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 30px;
+
+            li:first-child {
+                border-top: 1px solid #C3C3C3;
+            }
+
+            li {
+                height: 60px;
+                border-bottom: 1px solid #C3C3C3;
+                padding-top: 15px;
+                font-size: 14px;
+
+                .date {
+                    font-weight: bold;
+                    font-family: 'Roboto', sans-serif;
+                    margin-right: 20px;
+                }
+
+                .event {
+                    font-family: "Noto Sans JP", sans-serif;
+                }
+            }
+        }
+    }
+
+
+
+
+    //Footer 
+
+    .inner_footer {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        padding-top: 40px;
+        margin-top: 30px;
+
+
+        .section_container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            // padding-left: 0px;
+
+            .col-md-6 {
+                // padding-left: 0px;
+            }
+        }
+
+        .tel {
+            font-size: 14px;
+            font-family: "Noto Sans JP", sans-serif;
+            margin-top: 20px;
+
+
+            span {
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        .terms {
+            font-size: 12px;
+            font-family: "Noto Sans JP", sans-serif;
+            color: #B2B2B2;
+            font-weight: lighter;
+        }
+
+        .footer_nav {
+            ul {
+                list-style: none;
+
+                li {
+                    font-size: 14px;
+                    font-family: "Noto Sans JP", sans-serif;
+                    color: #B2B2B2;
+                    margin-bottom: 10px;
+
+                }
+            }
+        }
+    }
+
+    .foot_copy {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        height: 40px;
+        padding-top: 10px;
+        color: #C3C3C3;
+
+    }
+
+
+
+
+
+}
+
+//Desktop & Laptops
+@include mediaLg {
+    .sp {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    .hero_bg {
+        width: 100%;
+        background-image: url(/dist/images/main_visual.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 700px;
+
+        //Header
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            z-index: 10000;
+            transition: all 0.2s ease-in-out;
+            height: auto;
+            background-color: transparent;
+            line-height: 40px;
+            height: 80px;
+            padding-top: 20px;
+
+            .header_wrapper {
+                width: 100%;
+                max-width: 960px;
+                margin: auto;
+
+                h1 {
+                    float: left;
+                    //   @include Noto;
+                    font-size: 1.2em;
+                    text-decoration: none;
+                    color: white;
+                }
+
+                nav {
+                    float: right;
+
+                    .icon {
+                        display: none;
+                    }
+
+                    .menu {
+                        width: 624px;
+                    }
+
+                    .menu li {
+                        float: left;
+                        // @include Noto;
+                        font-size: 16px;
+                    }
+
+                    ul {
+                        list-style: none;
+                        margin: 0 !important;
+                        padding: 0 !important;
+
+                        .nav_item a {
+                            color: white;
+                            //   @include Noto;
+                            font-weight: 500;
+                        }
+
+                        li a {
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+
+                    #free_btn {
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        border-radius: 5px;
+                        margin-left: 20px;
+                        // background-image: url(..\img\white_arrow.png);
+                        background-image: linear-gradient(to right, #dc4588, #ff8940);
+
+                        span {
+                            margin-left: 10px;
+
+                            img {
+                                width: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero_text {
+            width: 800px;
+            margin: 0 auto;
+            padding-top: 240px;
+            text-align: center;
+            color: white;
+
+            h3 {
+                font-size: 22px;
+                // @include Noto;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                font-size: 28px;
+                // @include Noto;
+                letter-spacing: 2px;
+            }
+
+            .ghost_btn {
+                width: 350px;
+                color: white;
+                // @include Noto;
+                font-weight: 500;
+                border: 1px white solid;
+                border-radius: 100px;
+                display: block;
+                padding: 20px 60px;
+                margin: 40px auto 0;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+//Tablets & Small Laptops
+@include mediaMd {
+    .sp {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+}
+
+//Smartphones
+@include mediaSm {
+    .sp {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+}
