@@ -99,6 +99,30 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
+
+
+    var plus = 'images/plus2x.png';
+    var minus = 'images/minus2x.png';
+
+    $(".faq_disc").hide();
+    $(".fun-img-p").hide();
+    $('.faq_title').click(function () {
+        $(this).next('.faq_disc').slideToggle();
+        if ($(this).children('.plus_minu').children('img').attr('src') == minus) {
+            $(this).children('.plus_minu').children('img').attr('src', plus);
+        } else {
+            $(this).children('.plus_minu').children('img').attr('src', minus);
+        }
+        // $(this).children('img').attr('src', plus);
+
+        // if ($(this).next('.fun-img').attr('src') === minus) {
+        //     $(this).next('.fun-img').attr('src', plus);
+        // } else {
+        //     $(this).next('.fun-img').attr('src', minus)
+        // }
+
+    });
+
     //   $(".faq_disc").hide();
     //   $('.faq_title h3').click(function () {
     //     var index = $(this).index(),
@@ -114,14 +138,15 @@ $(document).ready(function () {
     // $(".faq_title h3").click(function(){
     //     $(".faq_disc").slideDown();
     // });
-    $(".slide-down").click(function () {
-        $(".faq_disc").slideUp();
-    });
+    // $(".slide-down").click(function () {
+    //     $(".faq_disc").slideUp();
+    // });
 
-    $(".faq_disc").hide();
-    $('.faq_title').click(function () {
-        $(this).next('.faq_disc').slideToggle();
-    });
+    // $(".faq_disc").hide();
+    // $('.faq_title h3').click(function () {
+    //     alert("hello");
+    //     $(this).next('.faq_disc').slideToggle();
+    // });
 
 
 });

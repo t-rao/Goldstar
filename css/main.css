@@ -145,8 +145,24 @@
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
       font-weight: 400; }
+    .service .ser_items {
+      margin-top: 80px; }
+      .service .ser_items .col-4 {
+        margin-bottom: 30px; }
+      .service .ser_items .serv_title {
+        font-size: 20px;
+        font-family: "Noto Sans JP", sans-serif; }
+      .service .ser_items .serv_para {
+        font-size: 14px;
+        font-family: "Noto Sans JP", sans-serif;
+        letter-spacing: 0px;
+        font-weight: 300;
+        margin-top: 10px; }
   .faq {
     padding-bottom: 60px; }
+    .faq .fun-img {
+      width: 40%;
+      text-align: right; }
     .faq .title h4 {
       color: #D8AC00;
       font-size: 12px;
@@ -156,6 +172,24 @@
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
       font-weight: 400; }
+    .faq .faq_item:first-child {
+      border-top: 0.2px solid #c3c3c3; }
+    .faq .faq_item {
+      font-family: "Noto Sans JP", sans-serif;
+      border-bottom: 0.2px solid #c3c3c3;
+      padding-top: 20px;
+      padding-bottom: 10px; }
+      .faq .faq_item .faq_title {
+        display: grid;
+        grid-template-columns: 95% 5%; }
+        .faq .faq_item .faq_title h3 {
+          font-size: 16px;
+          font-weight: 400; }
+      .faq .faq_item .faq_disc {
+        clear: both !important;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px; }
   .inner_footer {
     background-color: white;
     width: 100%;
