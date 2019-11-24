@@ -5,7 +5,7 @@
     display: block; }
   .hero_bg {
     width: 100%;
-    background-image: url(/dist/images/main_visual.jpg);
+    background-image: url(../images/main_visual.jpg);
     background-color: gray;
     background-repeat: no-repeat;
     background-size: cover;
