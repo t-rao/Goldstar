@@ -10,6 +10,7 @@ $(window).on("scroll", function () {
                 $(".overlay").css("background", "White");
                 $("#closebtn").css("color", "black");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo_scrool.png");
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".header").removeClass("active");
@@ -19,6 +20,7 @@ $(window).on("scroll", function () {
                 $(".overlay").css("background", "black");
                 $("#closebtn").css("color", "white");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo.png");
             }
         } else {
             if ($(window).scrollTop() > 50) {
@@ -29,6 +31,7 @@ $(window).on("scroll", function () {
                 $(".logo").css("color", "black");
                 $("#closebtn").css("color", "black");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo_scrool.png");
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".header").removeClass("active");
@@ -38,6 +41,7 @@ $(window).on("scroll", function () {
                 $(".logo").css("color", "White");
                 $("#closebtn").css("color", "white");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo.png");
             }
         }
     }
