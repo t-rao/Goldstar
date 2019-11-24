@@ -10,6 +10,7 @@ $(window).on("scroll", function () {
                 $(".overlay").css("background", "White");
                 $("#closebtn").css("color", "black");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo_scrool.png");
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".header").removeClass("active");
@@ -19,6 +20,7 @@ $(window).on("scroll", function () {
                 $(".overlay").css("background", "black");
                 $("#closebtn").css("color", "white");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo.png");
             }
         } else {
             if ($(window).scrollTop() > 50) {
@@ -29,6 +31,7 @@ $(window).on("scroll", function () {
                 $(".logo").css("color", "black");
                 $("#closebtn").css("color", "black");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo_scrool.png");
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".header").removeClass("active");
@@ -38,6 +41,7 @@ $(window).on("scroll", function () {
                 $(".logo").css("color", "White");
                 $("#closebtn").css("color", "white");
                 $(' #free_btn ').css("color", "white");
+                $('#logo').attr("src", "images/logo.png");
             }
         }
     }
@@ -95,6 +99,30 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
+
+
+    var plus = 'images/plus2x.png';
+    var minus = 'images/minus2x.png';
+
+    $(".faq_disc").hide();
+    $(".fun-img-p").hide();
+    $('.faq_title').click(function () {
+        $(this).next('.faq_disc').slideToggle();
+        if ($(this).children('.plus_minu').children('img').attr('src') == minus) {
+            $(this).children('.plus_minu').children('img').attr('src', plus);
+        } else {
+            $(this).children('.plus_minu').children('img').attr('src', minus);
+        }
+        // $(this).children('img').attr('src', plus);
+
+        // if ($(this).next('.fun-img').attr('src') === minus) {
+        //     $(this).next('.fun-img').attr('src', plus);
+        // } else {
+        //     $(this).next('.fun-img').attr('src', minus)
+        // }
+
+    });
+
     //   $(".faq_disc").hide();
     //   $('.faq_title h3').click(function () {
     //     var index = $(this).index(),
@@ -110,14 +138,15 @@ $(document).ready(function () {
     // $(".faq_title h3").click(function(){
     //     $(".faq_disc").slideDown();
     // });
-    $(".slide-down").click(function () {
-        $(".faq_disc").slideUp();
-    });
+    // $(".slide-down").click(function () {
+    //     $(".faq_disc").slideUp();
+    // });
 
-    $(".faq_disc").hide();
-    $('.faq_title').click(function () {
-        $(this).next('.faq_disc').slideToggle();
-    });
+    // $(".faq_disc").hide();
+    // $('.faq_title h3').click(function () {
+    //     alert("hello");
+    //     $(this).next('.faq_disc').slideToggle();
+    // });
 
 
 });
