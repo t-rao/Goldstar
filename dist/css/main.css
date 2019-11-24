@@ -862,8 +862,10 @@
     margin-bottom: 80px; }
     .tag_mess p {
       width: 100%;
-      max-width: 720px;
-      margin: 0 auto; }
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0 auto;
+      font-size: 14px; }
     .tag_mess span {
       color: #D8AC00;
       font-family: "Roboto", sans-serif; }
@@ -959,7 +961,7 @@
     margin-top: 30px; }
     .inner_footer .section_container {
       width: 100%;
-      max-width: 720px;
+      max-width: 375px;
       margin: 0 auto; }
     .inner_footer .tel {
       font-size: 14px;

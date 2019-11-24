@@ -1330,8 +1330,11 @@
 
     p {
       width: 100%;
-      max-width: 720px;
+      // max-width: 300px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin: 0 auto;
+      font-size: 14px;
     }
 
     span {
@@ -1494,7 +1497,7 @@
 
     .section_container {
       width: 100%;
-      max-width: 720px;
+      max-width: 375px;
       margin: 0 auto;
       // padding-left: 0px;
 
