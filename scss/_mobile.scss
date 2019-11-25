@@ -395,7 +395,7 @@
     background-position: center;
 
     .inner_hero {
-      header {
+      .header2 {
         position: fixed;
         top: 0;
         left: 0;
@@ -409,7 +409,7 @@
         height: 80px;
         padding-top: 20px;
 
-        .header_wrapper {
+        .header_wrapper2 {
           width: 100%;
           max-width: 1140px;
           margin: auto;
@@ -425,15 +425,15 @@
             float: right;
             width: 421px;
 
-            .icon {
+            .icon2 {
               display: none;
             }
 
-            .menu {
+            .menu2 {
               width: 650px;
             }
 
-            .menu li {
+            .menu2 li {
               float: left;
               font-size: 16px;
             }
@@ -443,7 +443,7 @@
               margin: 0 !important;
               padding: 0 !important;
 
-              .nav_item a {
+              .nav_item2 a {
                 color: black;
                 font-weight: 500;
                 font-family: "Noto Sans JP", sans-serif;
@@ -457,7 +457,7 @@
               }
             }
 
-            #free_btn {
+            #free_btn2 {
               padding-left: 40px;
               padding-right: 40px;
               padding-top: 10px;
@@ -478,8 +478,9 @@
               }
             }
 
-            #free_btn:hover {
+            #free_btn2:hover {
               background-color: white;
+              border: 1px solid #dcbd26 !important;
 
               span {
                 color: #dcbd26 !important;
@@ -1040,7 +1041,7 @@
     background-position: center;
 
     .inner_hero {
-      header {
+      .header2 {
         position: fixed;
         top: 0;
         left: 0;
@@ -1054,7 +1055,7 @@
         height: 80px;
         padding-top: 20px;
 
-        .header_wrapper {
+        .header_wrapper2 {
           width: 100%;
           max-width: 960px;
           margin: auto;
@@ -1070,15 +1071,15 @@
             float: right;
             width: 421px;
 
-            .icon {
+            .icon2 {
               display: none;
             }
 
-            .menu {
+            .menu2 {
               width: 650px;
             }
 
-            .menu li {
+            .menu2 li {
               float: left;
               font-size: 16px;
             }
@@ -1088,7 +1089,7 @@
               margin: 0 !important;
               padding: 0 !important;
 
-              .nav_item a {
+              .nav_item2 a {
                 color: black;
                 font-weight: 500;
                 font-family: "Noto Sans JP", sans-serif;
@@ -1102,7 +1103,7 @@
               }
             }
 
-            #free_btn {
+            #free_btn2 {
               padding-left: 40px;
               padding-right: 40px;
               padding-top: 10px;
@@ -1123,8 +1124,10 @@
               }
             }
 
-            #free_btn:hover {
+            #free_btn2:hover {
               background-color: white;
+              border: 1px solid #dcbd26 !important;
+
 
               span {
                 color: #dcbd26 !important;
@@ -1719,7 +1722,7 @@
     background-position: center;
 
     .inner_hero {
-      header {
+      .header2 {
         position: fixed;
         top: 0;
         left: 0;
@@ -1733,7 +1736,7 @@
         height: 80px;
         padding-top: 20px;
 
-        .header_wrapper {
+        .header_wrapper2 {
           width: 100%;
           margin: auto;
 
@@ -1748,11 +1751,11 @@
           nav {
             float: right;
 
-            .icon {
+            .icon2 {
               display: block;
             }
 
-            span.icon {
+            span.icon2 {
               position: absolute;
               right: 0;
               top: 20px;
@@ -1764,7 +1767,7 @@
             // .menu {
             //     width: 528px;
             // }
-            .menu li {
+            .menu2 li {
               // float: left;
               font-size: 16px;
               margin-bottom: 60px;
@@ -1775,7 +1778,7 @@
               margin: 0 !important;
               padding: 0 !important;
 
-              .nav_item a {
+              .nav_item2 a {
                 color: white;
                 font-weight: 500;
                 font-size: 30px;
@@ -1791,7 +1794,7 @@
               }
             }
 
-            .overlay {
+            .overlay2 {
               height: 100%;
               width: 0;
               position: fixed;
@@ -1802,7 +1805,7 @@
               overflow-x: hidden;
               transition: 0.5s;
 
-              #closebtn {
+              #closebtn2 {
                 width: 50px;
                 height: 50px;
                 background: none;
@@ -1810,7 +1813,7 @@
                 margin-right: 0;
               }
 
-              .overlay li {
+              .overlay2 li {
                 padding: 8px;
                 text-decoration: none;
                 font-size: 36px;
@@ -1821,7 +1824,7 @@
                 line-height: 150%;
               }
 
-              .overlay-content {
+              .overlay-content2 {
                 position: relative;
                 top: 15%;
                 width: 100%;
@@ -1830,7 +1833,7 @@
               }
             }
 
-            #free_btn {
+            #free_btn2 {
               padding-left: 40px;
               padding-right: 40px;
               padding-top: 10px;
@@ -2052,6 +2055,7 @@
           text-decoration: none;
           color: white;
           padding-left: 30px;
+          margin-top: 12px;
         }
 
         nav {
@@ -2196,7 +2200,7 @@
 
   // Tag Message
   .tag_mess {
-    height: 90px;
+    height: 120px;
     padding-top: 30px;
     font-size: 16px;
     font-family: "Noto Sans JP", sans-serif;
@@ -2235,6 +2239,8 @@
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 1px;
         font-weight: 400;
+        font-size: 20px;
+
       }
     }
 
@@ -2250,7 +2256,7 @@
         height: 60px;
         border-bottom: 1px solid #c3c3c3;
         padding-top: 15px;
-        font-size: 14px;
+        font-size: 12px;
 
         .date {
           font-weight: bold;
@@ -2280,6 +2286,7 @@
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 1px;
         font-weight: 400;
+        font-size: 22px;
       }
     }
 
@@ -2439,7 +2446,7 @@
     background-position: center;
 
     .inner_hero {
-      header {
+      .header2 {
         position: fixed;
         top: 0;
         left: 0;
@@ -2453,7 +2460,7 @@
         height: 80px;
         padding-top: 20px;
 
-        .header_wrapper {
+        .header_wrapper2 {
           width: 100%;
           margin: auto;
 
@@ -2463,16 +2470,17 @@
             text-decoration: none;
             color: white;
             padding-left: 30px;
+            margin-top: 12px;
           }
 
           nav {
             float: right;
 
-            .icon {
+            .icon2 {
               display: block;
             }
 
-            span.icon {
+            span.icon2 {
               position: absolute;
               right: 0;
               top: 20px;
@@ -2484,7 +2492,7 @@
             // .menu {
             //     width: 528px;
             // }
-            .menu li {
+            .menu2 li {
               // float: left;
               font-size: 16px;
               margin-bottom: 60px;
@@ -2495,7 +2503,7 @@
               margin: 0 !important;
               padding: 0 !important;
 
-              .nav_item a {
+              .nav_item2 a {
                 color: white;
                 font-weight: 500;
                 font-size: 30px;
@@ -2511,7 +2519,7 @@
               }
             }
 
-            .overlay {
+            .overlay2 {
               height: 100%;
               width: 0;
               position: fixed;
@@ -2522,7 +2530,7 @@
               overflow-x: hidden;
               transition: 0.5s;
 
-              #closebtn {
+              #closebtn2 {
                 width: 50px;
                 height: 50px;
                 background: none;
@@ -2530,7 +2538,7 @@
                 margin-right: 0;
               }
 
-              .overlay li {
+              .overlay2 li {
                 padding: 8px;
                 text-decoration: none;
                 font-size: 36px;
@@ -2541,7 +2549,7 @@
                 line-height: 150%;
               }
 
-              .overlay-content {
+              .overlay-content2 {
                 position: relative;
                 top: 15%;
                 width: 100%;
@@ -2550,7 +2558,7 @@
               }
             }
 
-            #free_btn {
+            #free_btn2 {
               padding-left: 40px;
               padding-right: 40px;
               padding-top: 10px;
