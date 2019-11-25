@@ -121,40 +121,8 @@ $(document).ready(function () {
         } else {
             $(this).children('.plus_minu').children('img').attr('src', minus);
         }
-        // $(this).children('img').attr('src', plus);
-
-        // if ($(this).next('.fun-img').attr('src') === minus) {
-        //     $(this).next('.fun-img').attr('src', plus);
-        // } else {
-        //     $(this).next('.fun-img').attr('src', minus)
-        // }
 
     });
-
-    //   $(".faq_disc").hide();
-    //   $('.faq_title h3').click(function () {
-    //     var index = $(this).index(),
-    //         newTarget = $('.faq_disc').eq(index).slideDown();
-    //     $('.faq_disc').not(newTarget).slideUp();
-
-    // });
-
     $("img.lazy").lazyload();
-
-
-    // $(".faq_disc").hide();
-    // $(".faq_title h3").click(function(){
-    //     $(".faq_disc").slideDown();
-    // });
-    // $(".slide-down").click(function () {
-    //     $(".faq_disc").slideUp();
-    // });
-
-    // $(".faq_disc").hide();
-    // $('.faq_title h3').click(function () {
-    //     alert("hello");
-    //     $(this).next('.faq_disc').slideToggle();
-    // });
-
 
 });
