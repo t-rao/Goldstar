@@ -6,6 +6,8 @@ $(window).on("scroll", function () {
                 $(".header").addClass("active");
                 $(".icon a").css("color", "black");
                 $(".nav_item a").css("color", "black");
+                $(".nav_item a span").css("color", "black");
+                $(".nav_item a i").css("color", "black");
                 $(".logo").css("color", "black");
                 $(".overlay").css("background", "White");
                 $("#closebtn").css("color", "black");
@@ -16,6 +18,8 @@ $(window).on("scroll", function () {
                 $(".header").removeClass("active");
                 $(".icon a").css("color", "White");
                 $(".nav_item a").css("color", "White");
+                $(".nav_item a span").css("color", "white");
+                $(".nav_item a i").css("color", "white");
                 $(".logo").css("color", "White");
                 $(".overlay").css("background", "black");
                 $("#closebtn").css("color", "white");
@@ -27,6 +31,8 @@ $(window).on("scroll", function () {
                 $(".header").addClass("active");
                 $(".icon a").css("color", "black");
                 $(".nav_item a").css("color", "black");
+                $(".nav_item a span").css("color", "black");
+                $(".nav_item a i").css("color", "black");
                 $(".overlay").css("background", "White");
                 $(".logo").css("color", "black");
                 $("#closebtn").css("color", "black");
@@ -37,6 +43,8 @@ $(window).on("scroll", function () {
                 $(".header").removeClass("active");
                 $(".icon a").css("color", "White");
                 $(".nav_item a").css("color", "White");
+                $(".nav_item a span").css("color", "white");
+                $(".nav_item a i").css("color", "white");
                 $(".overlay").css("background", "black");
                 $(".logo").css("color", "White");
                 $("#closebtn").css("color", "white");

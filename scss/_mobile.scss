@@ -70,6 +70,7 @@
               .nav_item a {
                 color: white;
                 font-weight: 500;
+                font-family: "Noto Sans JP", sans-serif;
               }
 
               li a {
@@ -88,8 +89,9 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              background-image: linear-gradient(to right, #dc4588, #ff8940);
-              transition: all 1s ease-in-out;
+              border: 1px solid white;
+              border-radius: 5px;
+              // transition: all 1s ease-in-out;
 
               span {
                 margin-left: 10px;
@@ -101,7 +103,15 @@
             }
 
             #free_btn:hover {
-              background-image: linear-gradient(to right, #ff8940, #dc4588);
+              background-color: white;
+
+              span {
+                color: #dcbd26 !important;
+              }
+
+              i {
+                color: #dcbd26 !important;
+              }
             }
           }
         }
@@ -439,6 +449,7 @@
               .nav_item a {
                 color: white;
                 font-weight: 500;
+                font-family: "Noto Sans JP", sans-serif;
               }
 
               li a {
@@ -457,7 +468,8 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              background-image: linear-gradient(to right, #dc4588, #ff8940);
+              border: 1px solid white;
+              border-radius: 10px;
               transition: all 1s ease-in-out;
 
               span {
@@ -470,7 +482,15 @@
             }
 
             #free_btn:hover {
-              background-image: linear-gradient(to right, #ff8940, #dc4588);
+              background-color: white;
+
+              span {
+                color: #dcbd26 !important;
+              }
+
+              i {
+                color: #dcbd26 !important;
+              }
             }
           }
         }
@@ -753,6 +773,7 @@
     background-size: cover;
     background-position: center;
     min-height: 700px;
+
     //Header
     header {
       position: fixed;
@@ -795,6 +816,7 @@
             font-size: 29px;
             padding-right: 30px;
           }
+
           // .menu {
           //     width: 528px;
           // }
@@ -813,6 +835,7 @@
               color: white;
               font-weight: 500;
               font-size: 30px;
+              font-family: "Noto Sans JP", sans-serif;
             }
 
             li a {
@@ -862,6 +885,7 @@
               color: white !important;
             }
           }
+
           #free_btn {
             padding-left: 40px;
             padding-right: 40px;
@@ -870,10 +894,12 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            background-image: linear-gradient(to right, #dc4588, #ff8940);
+            border: 1px solid white;
+            border-radius: 10px;
 
             span {
               margin-left: 10px;
+
               img {
                 width: 18px;
               }
@@ -1151,6 +1177,7 @@
   .pc {
     display: none;
   }
+
   .hero_bg {
     width: 100%;
     background-image: url(../images/main_visual.jpg);
@@ -1158,6 +1185,7 @@
     background-size: cover;
     background-position: center;
     min-height: 700px;
+
     //Header
     header {
       position: fixed;
@@ -1200,6 +1228,7 @@
             font-size: 29px;
             padding-right: 30px;
           }
+
           // .menu {
           //     width: 528px;
           // }
@@ -1218,6 +1247,7 @@
               color: white;
               font-weight: 500;
               font-size: 30px;
+              font-family: "Noto Sans JP", sans-serif;
             }
 
             li a {
@@ -1267,6 +1297,7 @@
               color: white !important;
             }
           }
+
           #free_btn {
             padding-left: 40px;
             padding-right: 40px;
@@ -1275,10 +1306,13 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            background-image: linear-gradient(to right, #dc4588, #ff8940);
+            border: 1px solid white;
+            border-radius: 5px;
+            // background-image: linear-gradient(to right, #dc4588, #ff8940);
 
             span {
               margin-left: 10px;
+
               img {
                 width: 18px;
               }
