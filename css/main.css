@@ -487,12 +487,12 @@
         width: 100%; }
     .contact .row {
       margin-bottom: 25px; }
-    .contact .col-8 .row {
+    .contact .col-md-8 .row {
       margin-bottom: 0px; }
-    .contact .col-4 label {
+    .contact .col-md-4 label {
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 0.5px; }
-      .contact .col-4 label span {
+      .contact .col-md-4 label span {
         font-size: 10px;
         color: red; }
     .contact .agree {
@@ -960,7 +960,90 @@
         .overview table tr td {
           padding-top: 20px;
           padding-bottom: 20px;
-          line-height: 200%; } }
+          line-height: 200%; }
+  .contact {
+    padding-bottom: 60px; }
+    .contact .title h4 {
+      color: #D8AC00;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 1px; }
+    .contact .title h3 {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 1px;
+      font-weight: 400; }
+    .contact .tellp {
+      background-color: white;
+      width: 100%;
+      max-width: 960px;
+      margin: 40px auto;
+      height: 200px;
+      padding-top: 50px; }
+      .contact .tellp h4 {
+        font-size: 50px !important;
+        font-family: "Roboto", sans-serif;
+        color: #707070;
+        text-align: center; }
+      .contact .tellp p {
+        font-family: "Noto Sans JP", sans-serif;
+        text-align: center;
+        color: #707070; }
+    .contact form {
+      margin-top: 80px; }
+      .contact form input[type="text"] {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+      .contact form select {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%;
+        text-align-last: right;
+        padding-right: 10px; }
+      .contact form textarea {
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+    .contact .row {
+      margin-bottom: 25px; }
+    .contact .col-md-8 .row {
+      margin-bottom: 0px; }
+    .contact .col-md-4 label {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 0.5px; }
+      .contact .col-md-4 label span {
+        font-size: 10px;
+        color: red; }
+    .contact .agree {
+      margin-top: 30px;
+      text-align: center; }
+      .contact .agree .inner_agree {
+        width: 300px;
+        margin: 0 auto;
+        font-family: "Noto Sans JP", sans-serif; }
+        .contact .agree .inner_agree input {
+          margin-right: 10px; }
+        .contact .agree .inner_agree span {
+          text-decoration: underline;
+          color: blue;
+          font-family: "Noto Sans JP", sans-serif; }
+    .contact .btn_form {
+      margin-top: 30px; }
+    .contact .submit_btn {
+      background-color: transparent;
+      border: solid 1px black;
+      width: 100%;
+      max-width: 960px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Noto Sans JP", sans-serif; }
+      .contact .submit_btn span {
+        margin-left: 30px; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .sp {
@@ -1461,7 +1544,90 @@
         .overview table tr td {
           padding-top: 20px;
           padding-bottom: 20px;
-          line-height: 200%; } }
+          line-height: 200%; }
+  .contact {
+    padding-bottom: 60px; }
+    .contact .title h4 {
+      color: #D8AC00;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 1px; }
+    .contact .title h3 {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 1px;
+      font-weight: 400; }
+    .contact .tellp {
+      background-color: white;
+      width: 100%;
+      max-width: 720px;
+      margin: 40px auto;
+      height: 200px;
+      padding-top: 50px; }
+      .contact .tellp h4 {
+        font-size: 50px !important;
+        font-family: "Roboto", sans-serif;
+        color: #707070;
+        text-align: center; }
+      .contact .tellp p {
+        font-family: "Noto Sans JP", sans-serif;
+        text-align: center;
+        color: #707070; }
+    .contact form {
+      margin-top: 80px; }
+      .contact form input[type="text"] {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+      .contact form select {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%;
+        text-align-last: right;
+        padding-right: 10px; }
+      .contact form textarea {
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+    .contact .row {
+      margin-bottom: 25px; }
+    .contact .col-md-8 .row {
+      margin-bottom: 0px; }
+    .contact .col-md-4 label {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 0.5px; }
+      .contact .col-md-4 label span {
+        font-size: 10px;
+        color: red; }
+    .contact .agree {
+      margin-top: 30px;
+      text-align: center; }
+      .contact .agree .inner_agree {
+        width: 300px;
+        margin: 0 auto;
+        font-family: "Noto Sans JP", sans-serif; }
+        .contact .agree .inner_agree input {
+          margin-right: 10px; }
+        .contact .agree .inner_agree span {
+          text-decoration: underline;
+          color: blue;
+          font-family: "Noto Sans JP", sans-serif; }
+    .contact .btn_form {
+      margin-top: 30px; }
+    .contact .submit_btn {
+      background-color: transparent;
+      border: solid 1px black;
+      width: 100%;
+      max-width: 720px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Noto Sans JP", sans-serif; }
+      .contact .submit_btn span {
+        margin-left: 30px; } }
 
 @media screen and (max-width: 500px) {
   .sp {
@@ -1968,7 +2134,89 @@
         .overview table tr td {
           padding-top: 20px;
           padding-bottom: 20px;
-          line-height: 200%; } }
+          line-height: 200%; }
+  .contact {
+    padding-bottom: 60px; }
+    .contact .title h4 {
+      color: #D8AC00;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 1px; }
+    .contact .title h3 {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 1px;
+      font-weight: 400; }
+    .contact .tellp {
+      background-color: white;
+      width: 100%;
+      margin: 40px auto;
+      height: 200px;
+      padding-top: 50px; }
+      .contact .tellp h4 {
+        font-size: 40px !important;
+        font-family: "Roboto", sans-serif;
+        color: #707070;
+        text-align: center; }
+      .contact .tellp p {
+        font-family: "Noto Sans JP", sans-serif;
+        text-align: center;
+        color: #707070; }
+    .contact form {
+      margin-top: 80px; }
+      .contact form input[type="text"] {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+      .contact form select {
+        height: 50px;
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%;
+        text-align-last: right;
+        padding-right: 10px; }
+      .contact form textarea {
+        border: none;
+        background-color: #e8e8e8;
+        border-radius: 2px;
+        width: 100%; }
+    .contact .row {
+      margin-bottom: 25px; }
+    .contact .col-md-8 .row {
+      margin-bottom: 0px; }
+    .contact .col-md-4 label {
+      font-family: "Noto Sans JP", sans-serif;
+      letter-spacing: 0.5px; }
+      .contact .col-md-4 label span {
+        font-size: 10px;
+        color: red; }
+    .contact .agree {
+      margin-top: 30px;
+      text-align: center; }
+      .contact .agree .inner_agree {
+        width: 300px;
+        margin: 0 auto;
+        font-family: "Noto Sans JP", sans-serif; }
+        .contact .agree .inner_agree input {
+          margin-right: 10px; }
+        .contact .agree .inner_agree span {
+          text-decoration: underline;
+          color: blue;
+          font-family: "Noto Sans JP", sans-serif; }
+    .contact .btn_form {
+      margin-top: 30px; }
+    .contact .submit_btn {
+      background-color: transparent;
+      border: solid 1px black;
+      width: 95%;
+      margin: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Noto Sans JP", sans-serif; }
+      .contact .submit_btn span {
+        margin-left: 30px; } }
 
 * {
   box-sizing: border-box;
