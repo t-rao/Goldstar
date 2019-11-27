@@ -2472,7 +2472,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 450px;
 
     //Header
     header {
@@ -2614,7 +2614,7 @@
     .hero_text {
       width: 100%;
       margin: 0 auto;
-      padding-top: 240px;
+      padding-top: 200px;
       text-align: center;
       color: white;
 
@@ -2626,6 +2626,7 @@
       h2 {
         font-size: 28px;
         letter-spacing: 2px;
+        font-family: "Noto Sans JP", sans-serif;
       }
 
       .ghost_btn {
@@ -2854,7 +2855,7 @@
         list-style: none;
 
         li {
-          font-size: 14px;
+          font-size: 12px;
           font-family: "Noto Sans JP", sans-serif;
           color: #b2b2b2;
           margin-bottom: 10px;
@@ -3060,8 +3061,8 @@
   }
 
   .breadcrumbs {
-    width: 100%;
-    max-width: 720px;
+    width: 90%;
+    /* max-width: 720px;*/
     margin: 40px auto;
 
     a {
@@ -3145,7 +3146,7 @@
     }
 
     .buttons_container {
-      width: 95%;
+      width: 83%;
       margin: 0 auto;
       font-family: "Noto Sans JP", sans-serif;
       font-weight: 600;

@@ -1640,7 +1640,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 700px; }
+    min-height: 450px; }
     .hero_bg header {
       position: fixed;
       top: 0;
@@ -1741,7 +1741,7 @@
     .hero_bg .hero_text {
       width: 100%;
       margin: 0 auto;
-      padding-top: 240px;
+      padding-top: 200px;
       text-align: center;
       color: white; }
       .hero_bg .hero_text h3 {
@@ -1749,7 +1749,8 @@
         margin-bottom: 20px; }
       .hero_bg .hero_text h2 {
         font-size: 28px;
-        letter-spacing: 2px; }
+        letter-spacing: 2px;
+        font-family: "Noto Sans JP", sans-serif; }
       .hero_bg .hero_text .ghost_btn {
         width: 350px;
         color: white;
@@ -1887,7 +1888,7 @@
     .inner_footer .footer_nav ul {
       list-style: none; }
       .inner_footer .footer_nav ul li {
-        font-size: 14px;
+        font-size: 12px;
         font-family: "Noto Sans JP", sans-serif;
         color: #b2b2b2;
         margin-bottom: 10px; }
@@ -2029,8 +2030,8 @@
         padding: 20px 60px;
         margin: 40px auto 0; }
   .breadcrumbs {
-    width: 100%;
-    max-width: 720px;
+    width: 90%;
+    /* max-width: 720px;*/
     margin: 40px auto; }
     .breadcrumbs a {
       color: black;
@@ -2088,7 +2089,7 @@
       margin: 0 auto;
       margin-bottom: 20px; }
     .button_contact .buttons_container {
-      width: 95%;
+      width: 83%;
       margin: 0 auto;
       font-family: "Noto Sans JP", sans-serif;
       font-weight: 600; }
