@@ -185,6 +185,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -230,6 +231,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -276,6 +278,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -360,6 +363,10 @@
           font-family: "Noto Sans JP", sans-serif;
           color: #b2b2b2;
           margin-bottom: 10px;
+
+          a {
+            color: #b2b2b2;
+          }
         }
       }
     }
@@ -574,6 +581,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -636,6 +644,7 @@
       }
     }
   }
+
   // Overview
   .overview {
     padding-bottom: 60px;
@@ -646,6 +655,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -665,12 +675,15 @@
       margin-bottom: 80px;
       font-size: 14px;
       letter-spacing: 0.5px;
+
       tr {
         border-bottom: 1px solid black;
+
         td:first-child {
           width: 30%;
           padding-left: 40px;
         }
+
         td {
           padding-top: 20px;
           padding-bottom: 20px;
@@ -689,6 +702,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -697,6 +711,7 @@
         font-weight: 400;
       }
     }
+
     .tellp {
       background-color: white;
       width: 100%;
@@ -704,20 +719,33 @@
       margin: 40px auto;
       height: 200px;
       padding-top: 50px;
+
       h4 {
         font-size: 50px !important;
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center;
+
+        a {
+          color: #707070;
+        }
+
+        a:hover {
+          color: #707070;
+          text-decoration: none;
+        }
       }
+
       p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
         color: #707070;
       }
     }
+
     form {
       margin-top: 80px;
+
       input[type="text"] {
         height: 50px;
         border: none;
@@ -735,6 +763,7 @@
         text-align-last: right;
         padding-right: 10px;
       }
+
       textarea {
         border: none;
         background-color: #e8e8e8;
@@ -742,34 +771,42 @@
         width: 100%;
       }
     }
+
     .row {
       margin-bottom: 25px;
     }
+
     .col-md-8 {
       .row {
         margin-bottom: 0px;
       }
     }
+
     .col-md-4 {
       label {
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 0.5px;
+
         span {
           font-size: 10px;
           color: red;
         }
       }
     }
+
     .agree {
       margin-top: 30px;
       text-align: center;
+
       .inner_agree {
         width: 300px;
         margin: 0 auto;
         font-family: "Noto Sans JP", sans-serif;
+
         input {
           margin-right: 10px;
         }
+
         span {
           text-decoration: underline;
           color: blue;
@@ -777,9 +814,11 @@
         }
       }
     }
+
     .btn_form {
       margin-top: 30px;
     }
+
     .submit_btn {
       background-color: transparent;
       border: solid 1px black;
@@ -788,10 +827,18 @@
       padding-top: 20px;
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif;
+
       span {
         margin-left: 30px;
       }
     }
+
+    .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white;
+    }
+
   }
 }
 
@@ -982,6 +1029,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1027,6 +1075,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1073,6 +1122,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1157,6 +1207,10 @@
           font-family: "Noto Sans JP", sans-serif;
           color: #b2b2b2;
           margin-bottom: 10px;
+
+          a {
+            color: #b2b2b2;
+          }
         }
       }
     }
@@ -1371,6 +1425,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1444,6 +1499,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1463,12 +1519,15 @@
       margin-bottom: 80px;
       font-size: 14px;
       letter-spacing: 0.5px;
+
       tr {
         border-bottom: 1px solid black;
+
         td:first-child {
           width: 30%;
           padding-left: 40px;
         }
+
         td {
           padding-top: 20px;
           padding-bottom: 20px;
@@ -1477,6 +1536,7 @@
       }
     }
   }
+
   .contact {
     padding-bottom: 60px;
 
@@ -1486,6 +1546,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1494,6 +1555,7 @@
         font-weight: 400;
       }
     }
+
     .tellp {
       background-color: white;
       width: 100%;
@@ -1501,20 +1563,33 @@
       margin: 40px auto;
       height: 200px;
       padding-top: 50px;
+
       h4 {
         font-size: 50px !important;
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center;
+
+        a {
+          color: #707070;
+        }
+
+        a:hover {
+          color: #707070;
+          text-decoration: none;
+        }
       }
+
       p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
         color: #707070;
       }
     }
+
     form {
       margin-top: 80px;
+
       input[type="text"] {
         height: 50px;
         border: none;
@@ -1532,6 +1607,7 @@
         text-align-last: right;
         padding-right: 10px;
       }
+
       textarea {
         border: none;
         background-color: #e8e8e8;
@@ -1539,34 +1615,42 @@
         width: 100%;
       }
     }
+
     .row {
       margin-bottom: 25px;
     }
+
     .col-md-8 {
       .row {
         margin-bottom: 0px;
       }
     }
+
     .col-md-4 {
       label {
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 0.5px;
+
         span {
           font-size: 10px;
           color: red;
         }
       }
     }
+
     .agree {
       margin-top: 30px;
       text-align: center;
+
       .inner_agree {
         width: 300px;
         margin: 0 auto;
         font-family: "Noto Sans JP", sans-serif;
+
         input {
           margin-right: 10px;
         }
+
         span {
           text-decoration: underline;
           color: blue;
@@ -1574,9 +1658,11 @@
         }
       }
     }
+
     .btn_form {
       margin-top: 30px;
     }
+
     .submit_btn {
       background-color: transparent;
       border: solid 1px black;
@@ -1585,9 +1671,16 @@
       padding-top: 20px;
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif;
+
       span {
         margin-left: 30px;
       }
+    }
+
+    .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white;
     }
   }
 }
@@ -1808,6 +1901,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1853,6 +1947,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1902,6 +1997,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -1986,6 +2082,10 @@
           font-family: "Noto Sans JP", sans-serif;
           color: #b2b2b2;
           margin-bottom: 10px;
+
+          a {
+            color: #b2b2b2;
+          }
         }
       }
     }
@@ -2235,6 +2335,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2297,6 +2398,7 @@
       }
     }
   }
+
   // Overview
   .overview {
     padding-bottom: 60px;
@@ -2307,6 +2409,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2326,12 +2429,15 @@
       margin-bottom: 80px;
       font-size: 14px;
       letter-spacing: 0.5px;
+
       tr {
         border-bottom: 1px solid black;
+
         td:first-child {
           width: 30%;
           padding-left: 40px;
         }
+
         td {
           padding-top: 20px;
           padding-bottom: 20px;
@@ -2350,6 +2456,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2358,6 +2465,7 @@
         font-weight: 400;
       }
     }
+
     .tellp {
       background-color: white;
       width: 100%;
@@ -2365,20 +2473,33 @@
       margin: 40px auto;
       height: 200px;
       padding-top: 50px;
+
       h4 {
         font-size: 50px !important;
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center;
+
+        a {
+          color: #707070;
+        }
+
+        a:hover {
+          color: #707070;
+          text-decoration: none;
+        }
       }
+
       p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
         color: #707070;
       }
     }
+
     form {
       margin-top: 80px;
+
       input[type="text"] {
         height: 50px;
         border: none;
@@ -2396,6 +2517,7 @@
         text-align-last: right;
         padding-right: 10px;
       }
+
       textarea {
         border: none;
         background-color: #e8e8e8;
@@ -2403,34 +2525,42 @@
         width: 100%;
       }
     }
+
     .row {
       margin-bottom: 25px;
     }
+
     .col-md-8 {
       .row {
         margin-bottom: 0px;
       }
     }
+
     .col-md-4 {
       label {
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 0.5px;
+
         span {
           font-size: 10px;
           color: red;
         }
       }
     }
+
     .agree {
       margin-top: 30px;
       text-align: center;
+
       .inner_agree {
         width: 300px;
         margin: 0 auto;
         font-family: "Noto Sans JP", sans-serif;
+
         input {
           margin-right: 10px;
         }
+
         span {
           text-decoration: underline;
           color: blue;
@@ -2438,9 +2568,11 @@
         }
       }
     }
+
     .btn_form {
       margin-top: 30px;
     }
+
     .submit_btn {
       background-color: transparent;
       border: solid 1px black;
@@ -2449,9 +2581,16 @@
       padding-top: 20px;
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif;
+
       span {
         margin-left: 30px;
       }
+    }
+
+    .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white;
     }
   }
 }
@@ -2678,6 +2817,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2724,6 +2864,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2775,6 +2916,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -2859,6 +3001,10 @@
           font-family: "Noto Sans JP", sans-serif;
           color: #b2b2b2;
           margin-bottom: 10px;
+
+          a {
+            color: #b2b2b2;
+          }
         }
       }
     }
@@ -3109,6 +3255,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -3146,20 +3293,20 @@
     }
 
     .buttons_container {
-      width: 83%;
+      width: 300px;
       margin: 0 auto;
       font-family: "Noto Sans JP", sans-serif;
       font-weight: 600;
 
       button {
         border-radius: 5px;
-        font-size: 14px;
+        font-size: 12px;
       }
 
       .ghost_btn {
         background-color: transparent;
         border: solid black 1px;
-        padding: 10px 20px;
+        padding: 8px 12px;
         // margin-right: 10px;
         font-family: "Noto Sans JP", sans-serif !important;
         font-weight: 400;
@@ -3170,6 +3317,7 @@
         border: none;
         padding: 10px 20px;
         color: white;
+        margin-left: 5px;
       }
     }
   }
@@ -3184,6 +3332,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -3202,12 +3351,15 @@
       margin-bottom: 80px;
       font-size: 14px;
       letter-spacing: 0.5px;
+
       tr {
         border-bottom: 1px solid black;
+
         td:first-child {
           width: 30%;
           padding-left: 10px;
         }
+
         td {
           padding-top: 20px;
           padding-bottom: 20px;
@@ -3216,6 +3368,7 @@
       }
     }
   }
+
   .contact {
     padding-bottom: 60px;
 
@@ -3225,6 +3378,7 @@
         font-size: 12px;
         font-family: "Roboto", sans-serif;
         letter-spacing: 1px;
+        text-transform: uppercase;
       }
 
       h3 {
@@ -3233,6 +3387,7 @@
         font-weight: 400;
       }
     }
+
     .tellp {
       background-color: white;
       width: 100%;
@@ -3240,20 +3395,33 @@
       margin: 40px auto;
       height: 200px;
       padding-top: 50px;
+
       h4 {
         font-size: 40px !important;
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center;
+
+        a {
+          color: #707070;
+        }
+
+        a:hover {
+          color: #707070;
+          text-decoration: none;
+        }
       }
+
       p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
         color: #707070;
       }
     }
+
     form {
       margin-top: 80px;
+
       input[type="text"] {
         height: 50px;
         border: none;
@@ -3271,6 +3439,7 @@
         text-align-last: right;
         padding-right: 10px;
       }
+
       textarea {
         border: none;
         background-color: #e8e8e8;
@@ -3278,34 +3447,42 @@
         width: 100%;
       }
     }
+
     .row {
       margin-bottom: 25px;
     }
+
     .col-md-8 {
       .row {
         margin-bottom: 0px;
       }
     }
+
     .col-md-4 {
       label {
         font-family: "Noto Sans JP", sans-serif;
         letter-spacing: 0.5px;
+
         span {
           font-size: 10px;
           color: red;
         }
       }
     }
+
     .agree {
       margin-top: 30px;
       text-align: center;
+
       .inner_agree {
         width: 300px;
         margin: 0 auto;
         font-family: "Noto Sans JP", sans-serif;
+
         input {
           margin-right: 10px;
         }
+
         span {
           text-decoration: underline;
           color: blue;
@@ -3313,9 +3490,11 @@
         }
       }
     }
+
     .btn_form {
       margin-top: 30px;
     }
+
     .submit_btn {
       background-color: transparent;
       border: solid 1px black;
@@ -3325,6 +3504,7 @@
       padding-top: 20px;
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif;
+
       span {
         margin-left: 30px;
       }
