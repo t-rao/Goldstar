@@ -8,6 +8,11 @@ $(window).on("scroll", function () {
                 $(".nav_item a").css("color", "black");
                 $(".nav_item a span").css("color", "black");
                 $(".nav_item a i").css("color", "black");
+                $(' #free_btn ').css({
+                    "border-color": "#000000",
+                    "border-width": "1px",
+                    "border-style": "solid"
+                });
                 $(".logo").css("color", "black");
                 $(".overlay").css("background", "White");
                 $("#closebtn").css("color", "black");
@@ -20,6 +25,11 @@ $(window).on("scroll", function () {
                 $(".nav_item a").css("color", "White");
                 $(".nav_item a span").css("color", "white");
                 $(".nav_item a i").css("color", "white");
+                $(' #free_btn ').css({
+                    "border-color": "white",
+                    "border-width": "1px",
+                    "border-style": "solid"
+                });
                 $(".logo").css("color", "White");
                 $(".overlay").css("background", "black");
                 $("#closebtn").css("color", "white");
@@ -33,6 +43,11 @@ $(window).on("scroll", function () {
                 $(".nav_item a").css("color", "black");
                 $(".nav_item a span").css("color", "black");
                 $(".nav_item a i").css("color", "black");
+                $(' #free_btn ').css({
+                    "border-color": "#000000",
+                    "border-width": "1px",
+                    "border-style": "solid"
+                });
                 $(".overlay").css("background", "White");
                 $(".logo").css("color", "black");
                 $("#closebtn").css("color", "black");
@@ -45,6 +60,11 @@ $(window).on("scroll", function () {
                 $(".nav_item a").css("color", "White");
                 $(".nav_item a span").css("color", "white");
                 $(".nav_item a i").css("color", "white");
+                $(' #free_btn ').css({
+                    "border-color": "white",
+                    "border-width": "1px",
+                    "border-style": "solid"
+                });
                 $(".overlay").css("background", "black");
                 $(".logo").css("color", "White");
                 $("#closebtn").css("color", "white");
