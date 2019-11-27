@@ -172,12 +172,12 @@ $(window).on("scroll", function() {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header2").removeClass("active");
         $(".icon2 a").css("color", "black");
-        $(".nav_item2 a").css("color", "White");
+        $(".nav_item2 a").css("color", "white");
         $(".nav_item2 a span").css("color", "white");
         $(".nav_item2 a i").css("color", "white");
         $(".logo2").css("color", "White");
         $(".overlay2").css("background", "black");
-        $("#closebtn2").css("color", "white!important");
+        $("#closebtn2").css("color", "white");
         $(" #free_btn2 ").css("color", "white");
         $(" #free_btn2 ").css({
           "border-color": "#ffffff",
@@ -206,13 +206,13 @@ $(window).on("scroll", function() {
       } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header2").removeClass("active");
-        $(".icon2 a").css("color", "black");
-        $(".nav_item2 a").css("color", "white");
+        $(".icon2 a").css("color", "white");
+        $(".nav_item2 a").css("color", "black");
         $(".nav_item2 a span").css("color", "black");
         $(".nav_item2 a i").css("color", "black");
         $(".overlay2").css("background", "black");
         $(".logo2").css("color", "White");
-        $("#closebtn2").css("color", "white");
+        $("#closebtn2").css("color", "black");
         $(" #free_btn2 ").css("color", "white");
         $(" #free_btn2 ").css({
           "border-color": "#000000",
