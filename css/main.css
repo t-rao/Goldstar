@@ -224,6 +224,8 @@
         font-family: "Noto Sans JP", sans-serif;
         color: #b2b2b2;
         margin-bottom: 10px; }
+        .inner_footer .footer_nav ul li a {
+          color: #b2b2b2; }
   .foot_copy {
     width: 100%;
     max-width: 1140px;
@@ -413,7 +415,8 @@
       color: #D8AC00;
       font-size: 12px;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      text-transform: uppercase; }
     .overview .title h3 {
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
@@ -460,6 +463,11 @@
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center; }
+        .contact .tellp h4 a {
+          color: #707070; }
+        .contact .tellp h4 a:hover {
+          color: #707070;
+          text-decoration: none; }
       .contact .tellp p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
@@ -519,7 +527,11 @@
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif; }
       .contact .submit_btn span {
-        margin-left: 30px; } }
+        margin-left: 30px; }
+    .contact .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .sp {
@@ -748,6 +760,8 @@
         font-family: "Noto Sans JP", sans-serif;
         color: #b2b2b2;
         margin-bottom: 10px; }
+        .inner_footer .footer_nav ul li a {
+          color: #b2b2b2; }
   .foot_copy {
     width: 100%;
     max-width: 960px;
@@ -937,7 +951,8 @@
       color: #D8AC00;
       font-size: 12px;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      text-transform: uppercase; }
     .overview .title h3 {
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
@@ -984,6 +999,11 @@
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center; }
+        .contact .tellp h4 a {
+          color: #707070; }
+        .contact .tellp h4 a:hover {
+          color: #707070;
+          text-decoration: none; }
       .contact .tellp p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
@@ -1043,7 +1063,11 @@
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif; }
       .contact .submit_btn span {
-        margin-left: 30px; } }
+        margin-left: 30px; }
+    .contact .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .sp {
@@ -1301,6 +1325,8 @@
         font-family: "Noto Sans JP", sans-serif;
         color: #b2b2b2;
         margin-bottom: 10px; }
+        .inner_footer .footer_nav ul li a {
+          color: #b2b2b2; }
   .foot_copy {
     width: 100%;
     max-width: 720px;
@@ -1521,7 +1547,8 @@
       color: #D8AC00;
       font-size: 12px;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      text-transform: uppercase; }
     .overview .title h3 {
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
@@ -1568,6 +1595,11 @@
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center; }
+        .contact .tellp h4 a {
+          color: #707070; }
+        .contact .tellp h4 a:hover {
+          color: #707070;
+          text-decoration: none; }
       .contact .tellp p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
@@ -1627,7 +1659,11 @@
       padding-bottom: 20px;
       font-family: "Noto Sans JP", sans-serif; }
       .contact .submit_btn span {
-        margin-left: 30px; } }
+        margin-left: 30px; }
+    .contact .submit_btn:hover {
+      background-color: black;
+      border: none;
+      color: white; } }
 
 @media screen and (max-width: 500px) {
   .sp {
@@ -1892,6 +1928,8 @@
         font-family: "Noto Sans JP", sans-serif;
         color: #b2b2b2;
         margin-bottom: 10px; }
+        .inner_footer .footer_nav ul li a {
+          color: #b2b2b2; }
   .foot_copy {
     width: 100%;
     max-width: 375px;
@@ -2113,7 +2151,8 @@
       color: #D8AC00;
       font-size: 12px;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      text-transform: uppercase; }
     .overview .title h3 {
       font-family: "Noto Sans JP", sans-serif;
       letter-spacing: 1px;
@@ -2158,6 +2197,11 @@
         font-family: "Roboto", sans-serif;
         color: #707070;
         text-align: center; }
+        .contact .tellp h4 a {
+          color: #707070; }
+        .contact .tellp h4 a:hover {
+          color: #707070;
+          text-decoration: none; }
       .contact .tellp p {
         font-family: "Noto Sans JP", sans-serif;
         text-align: center;
@@ -2248,3 +2292,12 @@ body {
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); }
+
+.ghost_btn:hover {
+  background-color: black !important;
+  border: none;
+  color: white; }
+
+.gradient_btn:hover {
+  background-image: linear-gradient(to right, #ff9300, #ffd800) !important;
+  border: none; }
