@@ -28,7 +28,7 @@
         z-index: 10000;
         transition: all 0.2s ease-in-out;
         height: auto;
-        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.548);
         line-height: 40px;
         height: 80px;
         padding-top: 20px;
@@ -43,6 +43,7 @@
             font-size: 1.2em;
             text-decoration: none;
             color: white;
+            padding-top: 5px;
           }
 
           nav {
@@ -68,7 +69,7 @@
               padding: 0 !important;
 
               .nav_item a {
-                color: white;
+                color: black !important;
                 font-weight: 500;
                 font-family: "Noto Sans JP", sans-serif;
               }
@@ -77,7 +78,7 @@
                 padding-left: 20px;
                 padding-right: 20px;
                 text-decoration: none;
-                color: white;
+                color: black !important;
               }
             }
 
@@ -89,12 +90,12 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 5px;
               // transition: all 1s ease-in-out;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 8px;
@@ -103,14 +104,16 @@
             }
 
             #free_btn:hover {
+              // background-color: white;
               background-color: white;
+              border: 1px solid #00918e !important;
 
               span {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
 
               i {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
             }
           }
@@ -125,6 +128,16 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -268,7 +281,7 @@
     padding-bottom: 60px;
 
     .fun-img {
-      width: 40%;
+      // width: 40%;
       text-align: right;
     }
 
@@ -295,16 +308,20 @@
     .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px;
 
       .faq_title {
         h3 {
           font-size: 16px;
           font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px;
         }
 
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%;
       }
 
@@ -421,6 +438,7 @@
             font-size: 1.2em;
             text-decoration: none;
             color: white;
+            padding-top: 5px;
           }
 
           nav {
@@ -446,7 +464,7 @@
               padding: 0 !important;
 
               .nav_item2 a {
-                color: black;
+                color: black !important;
                 font-weight: 500;
                 font-family: "Noto Sans JP", sans-serif;
               }
@@ -455,7 +473,7 @@
                 padding-left: 20px;
                 padding-right: 20px;
                 text-decoration: none;
-                color: black;
+                color: black !important;
               }
             }
 
@@ -467,12 +485,12 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 5px;
               // transition: all 1s ease-in-out;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 8px;
@@ -482,14 +500,14 @@
 
             #free_btn2:hover {
               background-color: white;
-              border: 1px solid #dcbd26 !important;
+              border: 1px solid #00918e !important;
 
               span {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
 
               i {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
             }
           }
@@ -504,6 +522,16 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -606,14 +634,15 @@
     max-width: 1140px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px;
 
     h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px;
+      margin-bottom: 24px;
+      font-weight: 300;
     }
 
     .buttons_container {
@@ -637,10 +666,12 @@
       }
 
       .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
+        padding: 10px 70px;
         color: white;
+        margin: 0 auto;
+        display: block;
       }
     }
   }
@@ -838,7 +869,6 @@
       border: none;
       color: white;
     }
-
   }
 }
 
@@ -872,7 +902,7 @@
         z-index: 10000;
         transition: all 0.2s ease-in-out;
         height: auto;
-        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.548);
         line-height: 40px;
         height: 80px;
         padding-top: 20px;
@@ -912,7 +942,7 @@
               padding: 0 !important;
 
               .nav_item a {
-                color: white;
+                color: black !important;
                 font-weight: 500;
                 font-family: "Noto Sans JP", sans-serif;
               }
@@ -921,7 +951,7 @@
                 padding-left: 20px;
                 padding-right: 20px;
                 text-decoration: none;
-                color: white;
+                color: black !important;
               }
             }
 
@@ -933,12 +963,12 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 10px;
               transition: all 1s ease-in-out;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 8px;
@@ -969,6 +999,16 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -1112,7 +1152,7 @@
     padding-bottom: 60px;
 
     .fun-img {
-      width: 40%;
+      // width: 40%;
       text-align: right;
     }
 
@@ -1139,16 +1179,20 @@
     .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px;
 
       .faq_title {
         h3 {
           font-size: 16px;
           font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px;
         }
 
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%;
       }
 
@@ -1311,12 +1355,12 @@
               border-radius: 5px;
               margin-left: 20px;
               // background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 5px;
               // transition: all 1s ease-in-out;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 8px;
@@ -1326,14 +1370,14 @@
 
             #free_btn2:hover {
               background-color: white;
-              border: 1px solid #dcbd26 !important;
+              border: 1px solid #00918e !important;
 
               span {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
 
               i {
-                color: #dcbd26 !important;
+                color: #00918e !important;
               }
             }
           }
@@ -1348,6 +1392,16 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -1450,14 +1504,15 @@
     max-width: 960px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px;
 
     h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px;
+      margin-bottom: 24px;
+      font-weight: 300;
     }
 
     .buttons_container {
@@ -1481,10 +1536,12 @@
       }
 
       .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
+        padding: 10px 70px;
         color: white;
+        margin: 0 auto;
+        display: block;
       }
     }
   }
@@ -1713,7 +1770,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px;
@@ -1761,7 +1818,7 @@
             padding: 0 !important;
 
             .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-size: 30px;
               font-family: "Noto Sans JP", sans-serif;
@@ -1771,7 +1828,7 @@
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white;
+              color: black !important;
               text-align: center;
             }
           }
@@ -1823,11 +1880,11 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 10px;
 
             span {
-              margin-left: 10px;
+              // margin-left: 10px;
 
               img {
                 width: 18px;
@@ -1844,6 +1901,16 @@
       padding-top: 240px;
       text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 22px;
@@ -1983,7 +2050,7 @@
     padding-bottom: 60px;
 
     .fun-img {
-      width: 40%;
+      // width: 40%;
       text-align: right;
     }
 
@@ -2014,16 +2081,21 @@
     .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px;
 
       .faq_title {
         h3 {
           font-size: 16px;
           font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5;
         }
 
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%;
       }
 
@@ -2235,11 +2307,11 @@
               border-radius: 5px;
               margin-left: 20px;
               background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 10px;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 18px;
@@ -2258,6 +2330,17 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+        margin: 0 auto;
+      }
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -2360,14 +2443,15 @@
     max-width: 720px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px;
 
     h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px;
+      margin-bottom: 24px;
+      font-weight: 300;
     }
 
     .buttons_container {
@@ -2391,10 +2475,12 @@
       }
 
       .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
+        padding: 10px 70px;
         color: white;
+        margin: 0 auto;
+        display: block;
       }
     }
   }
@@ -2623,7 +2709,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px;
@@ -2672,7 +2758,7 @@
             padding: 0 !important;
 
             .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-size: 30px;
               font-family: "Noto Sans JP", sans-serif;
@@ -2682,7 +2768,7 @@
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white;
+              color: black !important;
               text-align: center;
             }
           }
@@ -2734,12 +2820,12 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 5px;
             // background-image: linear-gradient(to right, #dc4588, #ff8940);
 
             span {
-              margin-left: 10px;
+              // margin-left: 10px;
 
               img {
                 width: 18px;
@@ -2756,6 +2842,10 @@
       padding-top: 200px;
       text-align: center;
       color: white;
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 22px;
@@ -2902,7 +2992,7 @@
     padding-bottom: 60px;
 
     .fun-img {
-      width: 40%;
+      // width: 40%;
       text-align: right;
     }
 
@@ -2933,16 +3023,20 @@
     .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px;
 
       .faq_title {
         h3 {
           font-size: 16px;
           font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px;
         }
 
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%;
       }
 
@@ -3155,11 +3249,11 @@
               border-radius: 5px;
               margin-left: 20px;
               background-image: url(..\img\white_arrow.png);
-              border: 1px solid white;
+              border: 1px solid black;
               border-radius: 10px;
 
               span {
-                margin-left: 10px;
+                // margin-left: 10px;
 
                 img {
                   width: 18px;
@@ -3178,6 +3272,10 @@
       padding-top: 280px;
       //   text-align: center;
       color: white;
+
+      h5 {
+        line-height: 1.8;
+      }
 
       h3 {
         font-size: 24px;
@@ -3280,7 +3378,7 @@
     // max-width: 720px;
     margin: 0 auto;
     background-color: white;
-    height: 200px;
+    height: 180px;
     padding-top: 50px;
 
     h3 {
@@ -3290,6 +3388,7 @@
       width: 90%;
       margin: 0 auto;
       margin-bottom: 20px;
+      font-weight: 300;
     }
 
     .buttons_container {
@@ -3313,11 +3412,12 @@
       }
 
       .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
+        padding: 10px 70px;
         color: white;
-        margin-left: 5px;
+        margin: 0 auto;
+        display: block;
       }
     }
   }

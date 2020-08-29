@@ -1,4 +1,4 @@
-$(window).on("scroll", function() {
+$(window).on("scroll", function () {
   function myFunction(x) {
     if (x.matches) {
       // If media query matches
@@ -14,27 +14,27 @@ $(window).on("scroll", function() {
           "border-style": "solid"
         });
         $(".logo").css("color", "black");
-        $(".overlay").css("background", "White");
+        $(".overlay").css("background", "black");
         $("#closebtn").css("color", "black");
-        $(" #free_btn ").css("color", "white");
-        $("#logo").attr("src", "images/logo_scrool.png");
+        $(" #free_btn ").css("color", "black");
+        $("#logo").attr("src", "images/logo_color.svg");
       } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header").removeClass("active");
-        $(".icon a").css("color", "White");
-        $(".nav_item a").css("color", "White");
-        $(".nav_item a span").css("color", "white");
-        $(".nav_item a i").css("color", "white");
+        $(".icon a").css("color", "black");
+        $(".nav_item a").css("color", "black");
+        $(".nav_item a span").css("color", "black");
+        $(".nav_item a i").css("color", "black");
         $(" #free_btn ").css({
-          "border-color": "white",
+          "border-color": "black",
           "border-width": "1px",
           "border-style": "solid"
         });
-        $(".logo").css("color", "White");
+        $(".logo").css("color", "black");
         $(".overlay").css("background", "black");
-        $("#closebtn").css("color", "white");
-        $(" #free_btn ").css("color", "white");
-        $("#logo").attr("src", "images/logo.png");
+        $("#closebtn").css("color", "black");
+        $(" #free_btn ").css("color", "black");
+        $("#logo").attr("src", "images/logo_color.svg");
       }
     } else {
       if ($(window).scrollTop() > 50) {
@@ -48,28 +48,28 @@ $(window).on("scroll", function() {
           "border-width": "1px",
           "border-style": "solid"
         });
-        $(".overlay").css("background", "White");
+        $(".overlay").css("background", "black");
         $(".logo").css("color", "black");
         $("#closebtn").css("color", "black");
-        $(" #free_btn ").css("color", "white");
-        $("#logo").attr("src", "images/logo_scrool.png");
+        $(" #free_btn ").css("color", "black");
+        $("#logo").attr("src", "images/logo_color.svg");
       } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header").removeClass("active");
-        $(".icon a").css("color", "White");
-        $(".nav_item a").css("color", "White");
-        $(".nav_item a span").css("color", "white");
-        $(".nav_item a i").css("color", "white");
+        $(".icon a").css("color", "black");
+        $(".nav_item a").css("color", "black");
+        $(".nav_item a span").css("color", "black");
+        $(".nav_item a i").css("color", "black");
         $(" #free_btn ").css({
-          "border-color": "white",
+          "border-color": "black",
           "border-width": "1px",
           "border-style": "solid"
         });
         $(".overlay").css("background", "black");
-        $(".logo").css("color", "White");
-        $("#closebtn").css("color", "white");
-        $(" #free_btn ").css("color", "white");
-        $("#logo").attr("src", "images/logo.png");
+        $(".logo").css("color", "black");
+        $("#closebtn").css("color", "black");
+        $(" #free_btn ").css("color", "black");
+        $("#logo").attr("src", "images/logo_color.svg");
       }
     }
   }
@@ -91,9 +91,9 @@ function closeNav() {
 
 // Smooth scroll
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Add smooth scrolling to all links
-  $("a").on("click", function(event) {
+  $("a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -104,12 +104,11 @@ $(document).ready(function() {
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $("html, body").animate(
-        {
+      $("html, body").animate({
           scrollTop: $(hash).offset().top
         },
         800,
-        function() {
+        function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         }
@@ -118,21 +117,21 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   var plus = "images/plus2x.png";
   var minus = "images/minus2x.png";
 
   $(".faq_disc").hide();
   $(".fun-img-p").hide();
-  $(".faq_title").click(function() {
+  $(".faq_title").click(function () {
     $(this)
       .next(".faq_disc")
       .slideToggle();
     if (
       $(this)
-        .children(".plus_minu")
-        .children("img")
-        .attr("src") == minus
+      .children(".plus_minu")
+      .children("img")
+      .attr("src") == minus
     ) {
       $(this)
         .children(".plus_minu")
@@ -145,10 +144,10 @@ $(document).ready(function() {
         .attr("src", minus);
     }
   });
-  $("img.lazy").lazyload();
+  // $("img.lazy").lazyload();
 });
 
-$(window).on("scroll", function() {
+$(window).on("scroll", function () {
   function myFunction(x) {
     if (x.matches) {
       // If media query matches
@@ -159,32 +158,32 @@ $(window).on("scroll", function() {
         $(".nav_item2 a span").css("color", "black");
         $(".nav_item2 a i").css("color", "black");
         $(".logo2").css("color", "black");
-        $(".overlay2").css("background", "White");
+        $(".overlay2").css("background", "black");
         $("#closebtn2").css("color", "black");
-        $(" #free_btn2 ").css("color", "white");
+        $(" #free_btn2 ").css("color", "black");
         $(" #free_btn2 ").css({
           "border-color": "#000000",
           "border-width": "1px",
           "border-style": "solid"
         });
-        $("#logo2").attr("src", "images/logo_scrool.png");
+        $("#logo2").attr("src", "images/logo_color.svg");
       } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header2").removeClass("active");
         $(".icon2 a").css("color", "black");
-        $(".nav_item2 a").css("color", "white");
-        $(".nav_item2 a span").css("color", "white");
-        $(".nav_item2 a i").css("color", "white");
-        $(".logo2").css("color", "White");
+        $(".nav_item2 a").css("color", "black");
+        $(".nav_item2 a span").css("color", "black");
+        $(".nav_item2 a i").css("color", "black");
+        $(".logo2").css("color", "black");
         $(".overlay2").css("background", "black");
-        $("#closebtn2").css("color", "white");
-        $(" #free_btn2 ").css("color", "white");
+        $("#closebtn2").css("color", "black");
+        $(" #free_btn2 ").css("color", "black");
         $(" #free_btn2 ").css({
           "border-color": "#ffffff",
           "border-width": "1px",
           "border-style": "solid"
         });
-        $("#logo2").attr("src", "images/logo_scrool.png");
+        $("#logo2").attr("src", "images/logo_color.svg");
       }
     } else {
       if ($(window).scrollTop() > 50) {
@@ -193,33 +192,33 @@ $(window).on("scroll", function() {
         $(".nav_item2 a").css("color", "black");
         $(".nav_item2 a span").css("color", "black");
         $(".nav_item2 a i").css("color", "black");
-        $(".overlay2").css("background", "White");
+        $(".overlay2").css("background", "black");
         $(".logo2").css("color", "black");
         $("#closebtn2").css("color", "black");
-        $(" #free_btn2 ").css("color", "white");
+        $(" #free_btn2 ").css("color", "black");
         $(" #free_btn2 ").css({
           "border-color": "#000000",
           "border-width": "1px",
           "border-style": "solid"
         });
-        $("#logo2").attr("src", "images/logo_scrool.png");
+        $("#logo2").attr("src", "images/logo_color.svg");
       } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header2").removeClass("active");
-        $(".icon2 a").css("color", "white");
+        $(".icon2 a").css("color", "black");
         $(".nav_item2 a").css("color", "black");
         $(".nav_item2 a span").css("color", "black");
         $(".nav_item2 a i").css("color", "black");
         $(".overlay2").css("background", "black");
-        $(".logo2").css("color", "White");
+        $(".logo2").css("color", "black");
         $("#closebtn2").css("color", "black");
-        $(" #free_btn2 ").css("color", "white");
+        $(" #free_btn2 ").css("color", "black");
         $(" #free_btn2 ").css({
           "border-color": "#000000",
           "border-width": "1px",
           "border-style": "solid"
         });
-        $("#logo2").attr("src", "images/logo_scrool.png");
+        $("#logo2").attr("src", "images/logo_color.svg");
       }
     }
   }

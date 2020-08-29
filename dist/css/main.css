@@ -20,7 +20,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px; }
@@ -32,7 +32,8 @@
           float: left;
           font-size: 1.2em;
           text-decoration: none;
-          color: white; }
+          color: white;
+          padding-top: 5px; }
         .hero_bg .inner_hero header .header_wrapper nav {
           float: right;
           width: 421px; }
@@ -48,14 +49,14 @@
             margin: 0 !important;
             padding: 0 !important; }
             .hero_bg .inner_hero header .header_wrapper nav ul .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-family: "Noto Sans JP", sans-serif; }
             .hero_bg .inner_hero header .header_wrapper nav ul li a {
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white; }
+              color: black !important; }
           .hero_bg .inner_hero header .header_wrapper nav #free_btn {
             padding-left: 40px;
             padding-right: 40px;
@@ -63,24 +64,29 @@
             padding-bottom: 10px;
             border-radius: 5px;
             margin-left: 20px;
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 5px; }
-            .hero_bg .inner_hero header .header_wrapper nav #free_btn span {
-              margin-left: 10px; }
-              .hero_bg .inner_hero header .header_wrapper nav #free_btn span img {
-                width: 8px; }
+            .hero_bg .inner_hero header .header_wrapper nav #free_btn span img {
+              width: 8px; }
           .hero_bg .inner_hero header .header_wrapper nav #free_btn:hover {
-            background-color: white; }
+            background-color: white;
+            border: 1px solid #00918e !important; }
             .hero_bg .inner_hero header .header_wrapper nav #free_btn:hover span {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
             .hero_bg .inner_hero header .header_wrapper nav #free_btn:hover i {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
     .hero_bg .hero_text {
       width: 100%;
       max-width: 1140px;
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px; }
+      .hero_bg .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -169,7 +175,6 @@
   .faq {
     padding-bottom: 60px; }
     .faq .fun-img {
-      width: 40%;
       text-align: right; }
     .faq .title h4 {
       color: #00918E;
@@ -186,14 +191,18 @@
     .faq .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px; }
       .faq .faq_item .faq_title {
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%; }
         .faq .faq_item .faq_title h3 {
           font-size: 16px;
-          font-weight: 400; }
+          font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px; }
       .faq .faq_item .faq_disc {
         clear: both !important;
         font-size: 14px;
@@ -267,7 +276,8 @@
           float: left;
           font-size: 1.2em;
           text-decoration: none;
-          color: white; }
+          color: white;
+          padding-top: 5px; }
         .hero_bg2 .inner_hero .header2 .header_wrapper2 nav {
           float: right;
           width: 421px; }
@@ -283,14 +293,14 @@
             margin: 0 !important;
             padding: 0 !important; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav ul .nav_item2 a {
-              color: black;
+              color: black !important;
               font-weight: 500;
               font-family: "Noto Sans JP", sans-serif; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav ul li a {
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: black; }
+              color: black !important; }
           .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 {
             padding-left: 40px;
             padding-right: 40px;
@@ -298,25 +308,29 @@
             padding-bottom: 10px;
             border-radius: 5px;
             margin-left: 20px;
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 5px; }
-            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span {
-              margin-left: 10px; }
-              .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
-                width: 8px; }
+            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
+              width: 8px; }
           .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover {
             background-color: white;
-            border: 1px solid #dcbd26 !important; }
+            border: 1px solid #00918e !important; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover span {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover i {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
     .hero_bg2 .hero_text {
       width: 100%;
       max-width: 1140px;
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg2 .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px; }
+      .hero_bg2 .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg2 .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -386,13 +400,14 @@
     max-width: 1140px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px; }
     .button_contact h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px; }
+      margin-bottom: 24px;
+      font-weight: 300; }
     .button_contact .buttons_container {
       width: 371px;
       margin: 0 auto;
@@ -409,10 +424,12 @@
         font-family: "Noto Sans JP", sans-serif !important;
         font-weight: 400; }
       .button_contact .buttons_container .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
-        color: white; }
+        padding: 10px 70px;
+        color: white;
+        margin: 0 auto;
+        display: block; }
   .overview {
     padding-bottom: 60px; }
     .overview .title h4 {
@@ -560,7 +577,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px; }
@@ -588,14 +605,14 @@
             margin: 0 !important;
             padding: 0 !important; }
             .hero_bg .inner_hero header .header_wrapper nav ul .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-family: "Noto Sans JP", sans-serif; }
             .hero_bg .inner_hero header .header_wrapper nav ul li a {
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white; }
+              color: black !important; }
           .hero_bg .inner_hero header .header_wrapper nav #free_btn {
             padding-left: 40px;
             padding-right: 40px;
@@ -603,13 +620,11 @@
             padding-bottom: 10px;
             border-radius: 5px;
             margin-left: 20px;
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 10px;
             transition: all 1s ease-in-out; }
-            .hero_bg .inner_hero header .header_wrapper nav #free_btn span {
-              margin-left: 10px; }
-              .hero_bg .inner_hero header .header_wrapper nav #free_btn span img {
-                width: 8px; }
+            .hero_bg .inner_hero header .header_wrapper nav #free_btn span img {
+              width: 8px; }
           .hero_bg .inner_hero header .header_wrapper nav #free_btn:hover {
             background-color: white; }
             .hero_bg .inner_hero header .header_wrapper nav #free_btn:hover span {
@@ -622,6 +637,12 @@
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px; }
+      .hero_bg .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -710,7 +731,6 @@
   .faq {
     padding-bottom: 60px; }
     .faq .fun-img {
-      width: 40%;
       text-align: right; }
     .faq .title h4 {
       color: #00918E;
@@ -727,14 +747,18 @@
     .faq .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px; }
       .faq .faq_item .faq_title {
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%; }
         .faq .faq_item .faq_title h3 {
           font-size: 16px;
-          font-weight: 400; }
+          font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px; }
       .faq .faq_item .faq_disc {
         clear: both !important;
         font-size: 14px;
@@ -839,25 +863,29 @@
             padding-bottom: 10px;
             border-radius: 5px;
             margin-left: 20px;
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 5px; }
-            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span {
-              margin-left: 10px; }
-              .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
-                width: 8px; }
+            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
+              width: 8px; }
           .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover {
             background-color: white;
-            border: 1px solid #dcbd26 !important; }
+            border: 1px solid #00918e !important; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover span {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
             .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2:hover i {
-              color: #dcbd26 !important; }
+              color: #00918e !important; }
     .hero_bg2 .hero_text {
       width: 100%;
       max-width: 960px;
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg2 .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px; }
+      .hero_bg2 .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg2 .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -927,13 +955,14 @@
     max-width: 960px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px; }
     .button_contact h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px; }
+      margin-bottom: 24px;
+      font-weight: 300; }
     .button_contact .buttons_container {
       width: 370px;
       margin: 0 auto;
@@ -950,10 +979,12 @@
         font-family: "Noto Sans JP", sans-serif !important;
         font-weight: 400; }
       .button_contact .buttons_container .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
-        color: white; }
+        padding: 10px 70px;
+        color: white;
+        margin: 0 auto;
+        display: block; }
   .overview {
     padding-bottom: 60px; }
     .overview .title h4 {
@@ -1100,7 +1131,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px; }
@@ -1132,7 +1163,7 @@
             margin: 0 !important;
             padding: 0 !important; }
             .hero_bg header .header_wrapper nav ul .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-size: 30px;
               font-family: "Noto Sans JP", sans-serif; }
@@ -1140,7 +1171,7 @@
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white;
+              color: black !important;
               text-align: center; }
           .hero_bg header .header_wrapper nav .overlay {
             height: 100%;
@@ -1181,18 +1212,22 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 10px; }
-            .hero_bg header .header_wrapper nav #free_btn span {
-              margin-left: 10px; }
-              .hero_bg header .header_wrapper nav #free_btn span img {
-                width: 18px; }
+            .hero_bg header .header_wrapper nav #free_btn span img {
+              width: 18px; }
     .hero_bg .hero_text {
       width: 100%;
       margin: 0 auto;
       padding-top: 240px;
       text-align: center;
       color: white; }
+      .hero_bg .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px; }
+      .hero_bg .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg .hero_text h3 {
         font-size: 22px;
         margin-bottom: 20px; }
@@ -1279,7 +1314,6 @@
   .faq {
     padding-bottom: 60px; }
     .faq .fun-img {
-      width: 40%;
       text-align: right; }
     .faq .faq_drop_down {
       margin-top: 40px; }
@@ -1298,14 +1332,18 @@
     .faq .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px; }
       .faq .faq_item .faq_title {
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%; }
         .faq .faq_item .faq_title h3 {
           font-size: 16px;
-          font-weight: 400; }
+          font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5; }
       .faq .faq_item .faq_disc {
         clear: both !important;
         font-size: 14px;
@@ -1447,18 +1485,23 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 10px; }
-            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span {
-              margin-left: 10px; }
-              .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
-                width: 18px; }
+            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
+              width: 18px; }
     .hero_bg2 .hero_text {
       width: 100%;
       max-width: 720px;
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg2 .hero_text .black_overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        max-width: 550px;
+        margin: 0 auto; }
+      .hero_bg2 .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg2 .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -1528,13 +1571,14 @@
     max-width: 720px;
     margin: 0 auto;
     background-color: white;
-    height: 250px;
+    height: 190px;
     padding-top: 50px; }
     .button_contact h3 {
       text-align: center;
       font-family: "Noto Sans JP", sans-serif;
       font-size: 18px;
-      margin-bottom: 60px; }
+      margin-bottom: 24px;
+      font-weight: 300; }
     .button_contact .buttons_container {
       width: 370px;
       margin: 0 auto;
@@ -1551,10 +1595,12 @@
         font-family: "Noto Sans JP", sans-serif !important;
         font-weight: 400; }
       .button_contact .buttons_container .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
-        color: white; }
+        padding: 10px 70px;
+        color: white;
+        margin: 0 auto;
+        display: block; }
   .overview {
     padding-bottom: 60px; }
     .overview .title h4 {
@@ -1701,7 +1747,7 @@
       z-index: 10000;
       transition: all 0.2s ease-in-out;
       height: auto;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.548);
       line-height: 40px;
       height: 80px;
       padding-top: 20px; }
@@ -1734,7 +1780,7 @@
             margin: 0 !important;
             padding: 0 !important; }
             .hero_bg header .header_wrapper nav ul .nav_item a {
-              color: white;
+              color: black !important;
               font-weight: 500;
               font-size: 30px;
               font-family: "Noto Sans JP", sans-serif; }
@@ -1742,7 +1788,7 @@
               padding-left: 20px;
               padding-right: 20px;
               text-decoration: none;
-              color: white;
+              color: black !important;
               text-align: center; }
           .hero_bg header .header_wrapper nav .overlay {
             height: 100%;
@@ -1783,18 +1829,18 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 5px; }
-            .hero_bg header .header_wrapper nav #free_btn span {
-              margin-left: 10px; }
-              .hero_bg header .header_wrapper nav #free_btn span img {
-                width: 18px; }
+            .hero_bg header .header_wrapper nav #free_btn span img {
+              width: 18px; }
     .hero_bg .hero_text {
       width: 100%;
       margin: 0 auto;
       padding-top: 200px;
       text-align: center;
       color: white; }
+      .hero_bg .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg .hero_text h3 {
         font-size: 22px;
         margin-bottom: 20px; }
@@ -1887,7 +1933,6 @@
   .faq {
     padding-bottom: 60px; }
     .faq .fun-img {
-      width: 40%;
       text-align: right; }
     .faq .faq_drop_down {
       margin-top: 40px; }
@@ -1906,14 +1951,18 @@
     .faq .faq_item {
       font-family: "Noto Sans JP", sans-serif;
       border-bottom: 0.2px solid #c3c3c3;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 10px; }
       .faq .faq_item .faq_title {
-        display: grid;
+        display: -ms-flex;
+        display: flex;
+        -ms-grid-columns: 95% 5%;
         grid-template-columns: 95% 5%; }
         .faq .faq_item .faq_title h3 {
           font-size: 16px;
-          font-weight: 400; }
+          font-weight: 400;
+          flex-grow: 4;
+          padding-top: 5px; }
       .faq .faq_item .faq_disc {
         clear: both !important;
         font-size: 14px;
@@ -2056,18 +2105,18 @@
             border-radius: 5px;
             margin-left: 20px;
             background-image: url(..\img\white_arrow.png);
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 10px; }
-            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span {
-              margin-left: 10px; }
-              .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
-                width: 18px; }
+            .hero_bg2 .inner_hero .header2 .header_wrapper2 nav #free_btn2 span img {
+              width: 18px; }
     .hero_bg2 .hero_text {
       width: 100%;
       max-width: 720px;
       margin: 0 auto;
       padding-top: 280px;
       color: white; }
+      .hero_bg2 .hero_text h5 {
+        line-height: 1.8; }
       .hero_bg2 .hero_text h3 {
         font-size: 24px;
         margin-bottom: 20px; }
@@ -2136,7 +2185,7 @@
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    height: 200px;
+    height: 180px;
     padding-top: 50px; }
     .button_contact h3 {
       text-align: center;
@@ -2144,7 +2193,8 @@
       font-size: 16px;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-weight: 300; }
     .button_contact .buttons_container {
       width: 300px;
       margin: 0 auto;
@@ -2160,11 +2210,12 @@
         font-family: "Noto Sans JP", sans-serif !important;
         font-weight: 400; }
       .button_contact .buttons_container .gradient_btn {
-        background-image: linear-gradient(to right, #ffd800, #ff9300);
+        background-image: linear-gradient(to right, #00ceca, #00918e);
         border: none;
-        padding: 10px 20px;
+        padding: 10px 70px;
         color: white;
-        margin-left: 5px; }
+        margin: 0 auto;
+        display: block; }
   .overview {
     padding-bottom: 60px; }
     .overview .title h4 {
@@ -2320,5 +2371,5 @@ body {
   color: white; }
 
 .gradient_btn:hover {
-  background-image: linear-gradient(to right, #ff9300, #ffd800) !important;
+  background-image: linear-gradient(to right, #00918E, #00CECA) !important;
   border: none; }
